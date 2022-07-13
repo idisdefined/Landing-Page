@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.header-title {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    margin-top: 33px;
+    list-style-type: none;
+}
+
+
+.header-text {
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 32px;
+    color: #828282;
+}
+
+.header-text:nth-child(1) {
+    /* Black */
+    color: #070707;
+}
+
+.header-text:hover {
+    color: #070707;
+    cursor: pointer;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-text-1 {
+    font-family: 'Gilroy-Bold';
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #070707;
+    margin-top: 40px;
+}
+
+.header-text-2 {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    margin-top: 95px;
+}
+
+.header-text-3 {
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    transform: rotate(-90deg);
+    margin-top: 69px;
+    margin-right: -60px;
+}
+
+.header-text-menu {
+    display: none;
+}
+
+.header-content-image {
+    margin-top: 50px;
+}
+
+.main {
+    margin-top: 104px;
+    background: #F6F6F6;
+}
+
+.main-wrap {
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 107px;
+}
+
+.main-content {
+    align-items: center;
+    margin-top: 113px;
+    padding-bottom: 0;
+}
+
+
+.main-text {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+.main-title {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+
+.main-text-1 {
+    margin-top: 17px;
+    margin-bottom: 30px;
+}
+
+.main-text-3 {
+    margin-top: 30px;
+}
+
+.section-title {
+    text-align: center;
+    margin-top: 91px;
+}
+
+.section-text-1 {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+.section-text-2 {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 69px;
+    margin-bottom: 83px;
+    color: #070707;
+}
+
+.section-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images-title {
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+.section-content {
+    text-align: center;
+}
+
+.main-text-4 {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 47px;
+    padding-top: 112px;
+}
+
+.main-rebook-title {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+    margin-top: 45px;
+    padding-bottom: 99px;
+}
+
+.footer-wrap {
+    text-align: center;
+    align-items: center;
+}
+
+.footer-title {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    margin-top: 114px;
+}
+
+.footer-text {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-top: 20px;
+}
+
+.footer-area {
+    background: #070707;
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 7px 30px 6px 28px;
+    margin-top: 29px;
+    border: none;
+}
+
+.footer-content-images {
+    margin-top: 80px;
+}
+
+.footer-image-instagram {
+    margin-left: 61px;
+}
+
+.footer-image-behance {
+    margin-right: 61px;
+    margin-left: 61px;
+}
+
+.footer-content-title {
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    margin-top: 45px;
+    margin-bottom: 123px;
+}
+
+
+@media(max-width: 1090px) {
+    .wrap {
+        max-width: calc(375px - 30px * 2);
+    }
+
+    .header-title {
+        display: unset;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 100%;
+        padding: 15px;
+        background: #FFFFFF;
+        transform: translateX(-100%);
+        transition: transform 0.5s;
+    }
+
+    .header-text {
+        font-size: 34px;
+        line-height: 42px;
+        margin: 25px;
+    }
+
+    .header-text-3 {
+        display: none;
+    }
+
+    .header-text-menu {
+        display: flex;
+        font-family: 'Gilroy-Bold';
+        font-size: 34px;
+        line-height: 42px;
+        color: #828282;
+        transform: rotate(-90deg);
+        margin-top: 69px;
+        margin-right: -60px;
+        position: fixed;
+    }
+    
+    /* Меню, которое будет появляться */
+
+    .header-title.active {
+        transform: translateX(0);
+    }
+    
+    /* Гамбургер иконка */
+    .menu-btn {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        z-index:2;
+        overflow: hidden;
+        margin-top: 65px;
+    }
+    
+    .menu-btn span {
+        width: 30px;
+        height: 3px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #000000;
+        transition: all 0.5s;
+    }
+    
+    .menu-btn span:nth-of-type(2) {
+        top: calc(50% - 6px);
+    }
+    .menu-btn span:nth-of-type(3) {
+        top: calc(50% + 6px);
+    }
+    
+    /* Меняем гамбургер иконку, когда меню открыто */
+    
+    .menu-btn.active span:nth-of-type(1) {
+        display: none;
+    }
+    .menu-btn.active span:nth-of-type(2) {
+        top: 50%;
+        transform: translate(-50%, 0%) rotate(45deg);  
+    }
+    .menu-btn.active span:nth-of-type(3) {
+        top: 50%;
+        transform: translate(-50%, 0%) rotate(-45deg); 
+    }
+    
+
+    .header-content {
+        flex-direction: column;
+    }
+
+    .header-text-1 {
+        margin-top: -44px;
+    }
+
+    .header-text-2 {
+        margin-top: 23px;
+    }
+
+    .header-content-image {
+        background-image: url(../img/mini-man.png);
+        width: 316px;
+        height: 478px;
+        margin-top: 37px;
+    }
+
+    .header-content-image>img {
+        display: none;
+    }
+
+    .main {
+        margin-top: 83px;
+    }
+
+    .section-images {
+        flex-direction: column;
+    }
+
+    .section-text-2 {
+        margin-top: 50px;
+        margin-bottom: 71px;
+    }
+    .section-content {
+        margin-bottom: 81px;
+    }
+
+    .main-content {
+        margin-top: -17px;
+    }
+
+    .main-text-4 {
+        padding-top: 81px;
+    }
+
+    .main-content-image {
+        background-image: url(../img/rebook-1_mini.png);
+        width: 316px;
+        height: 171px;
+    }
+
+    .main-content-image-2 {
+        background-image: url(../img/reebok-2_mini.png);
+        width: 316px;
+        height: 176px;
+    }
+
+    .main-content-image-3 {
+        background-image: url(../img/reebok-3_mini.png);
+        width: 316px;
+        height: 176px;
+    }
+
+    .main-content-image>img {
+        display: none;
+    }
+
+    .main-content-image-2>img {
+        display: none;
+    }
+    
+    .main-content-image-3>img {
+        display: none;
+    }
+
+    .main-rebook-title {
+        margin-top: 33px;
+        padding-bottom: 78px;
+    }
+
+    .footer-title {
+        margin-top: 82px;
+    }
+
+    .footer-text {
+        margin-top: 27px;
+    }
+
+    .footer-area {
+        margin-top: 40px;
+        padding: 12px 97px 12px 97px;
+    }
+
+    .footer-content-images {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 48px;
+    }
+
+    .footer-content-title {
+        margin-top: 48px;
+        margin-bottom: 90px;
+    }
+
+    .footer-image-instagram {
+        margin-left: 0;
+    }
+    
+    .footer-image-behance {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
