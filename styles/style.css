@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
 * {
     margin: 0;
     padding: 0;
@@ -68,8 +70,17 @@
     margin-right: -60px;
 }
 
+.header-text-3:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
 .header-text-menu {
     display: none;
+}
+
+.menu-changes {
+    color:#000000;
 }
 
 .header-content-image {
@@ -253,7 +264,7 @@
         top: 0;
         left: 0;
         width: 100%;
-        min-height: 100%;
+        min-height: 200%;
         padding: 15px;
         background: #FFFFFF;
         transform: translateX(-100%);
@@ -276,10 +287,15 @@
         font-size: 34px;
         line-height: 42px;
         color: #828282;
-        transform: rotate(-90deg);
-        margin-top: 69px;
-        margin-right: -60px;
+        transform: rotate(90deg);
+        margin-top: 150px;
         position: fixed;
+        left: 50%;
+    }
+
+    .header-text-menu:hover {
+        color: #000000;
+        cursor: pointer;
     }
     
     /* Меню, которое будет появляться */
