@@ -18,6 +18,7 @@
     transform: matrix(1, 0, 0, 1, 0, 0);
     margin-top: 33px;
     list-style-type: none;
+    padding-bottom: 32px;
 }
 
 
@@ -25,12 +26,11 @@
     font-family: 'Gilroy-Bold';
     font-size: 18px;
     line-height: 22px;
-    margin-bottom: 32px;
     color: #828282;
+    text-decoration: none;
 }
 
-.header-text:nth-child(1) {
-    /* Black */
+.header-text::nth-of-type(1) {
     color: #070707;
 }
 
